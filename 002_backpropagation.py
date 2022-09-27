@@ -41,4 +41,4 @@ loss.backward()
 
 print(w.grad)    # first gradient after the forward and backward pass
 
-## NExt step is to update the weights and calculate next forward and backward
+## Next step is to update the weights and calculate next forward and backward
