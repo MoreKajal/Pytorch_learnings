@@ -1,3 +1,4 @@
+'''
 # Chain Rule
 # x -> a(x) -> y -> b(y) -> z
 # We want to know dz/dx = dz/dy * dy/dx
@@ -7,20 +8,17 @@
 # At the end we have to calcualte a Loss that we want to minimize
 # We find gradient of loss wrt input x (dLoss/dx)
 # dLoss/dx = dLoss/dz * dz/dx
-
+'''
 # Whole concept consists of 3 steps
 '''
 1. Forward pass : We Apply all the functions to compute the loss
 2. Compute Local Gradients at each node
 3. Backword pass : Compute gradient of loss wrt loss or our parameters using Chain Rule
-
 '''
 
 '''
 Let's take example of Linear Regression
 y^ = w*x, loss = (y^ - y)^2 = (y - wx)^2
-
-
 '''
 
 import torch
