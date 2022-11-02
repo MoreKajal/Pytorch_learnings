@@ -49,7 +49,7 @@ class CNN(nn.Module):
 
 ## Check Model
 # model = CNN()
-# x = torch.randn(4, 3, 32, 32)    # or : x = torch.randn(784, 10) : 28*28=784, MNIST greyscale images
+# x = torch.randn(4, 3, 32, 32)    # 
 # print('Model shape is : ', model(x).shape)           # Shapes from forward pass are printed only if model.shape is called
 
 
@@ -59,7 +59,7 @@ print("Device Being Used : ", device)
 
 ## Hyperparameters
 learning_rate = 0.001
-in_channels = 1
+in_channels = 3
 num_classes = 10
 batch_size = 4
 num_epochs = 2
